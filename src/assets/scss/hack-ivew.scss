@@ -1,0 +1,91 @@
+.carousel-dot{
+  border-radius: 50% !important;
+  background: #f3f3f3 !important;
+  //color: #f3f3f3 !important;
+  text-indent:1000px;
+  width: 10px;
+  height: 10px;
+  &.active{
+    background: #00b27a !important;
+    //color: #00b27a !important;
+  }
+}
+.ivu-card{
+  height:100%;
+  //z-index: -1 !important;
+}
+.scroll-area {
+  position: relative;
+  margin: auto;
+  height: 100%;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.scroll-area {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.el1full {
+  display: block;
+  width: auto;
+  height: 100%;
+  .vb-dragger {
+    width: 12px;
+    right: 0;
+  }
+}.vb > .vb-dragger {
+   z-index: 5;
+   width: 12px;
+   right: 0;
+ }
+
+.vb > .vb-dragger > .vb-dragger-styler {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: rotate3d(0,0,0,0);
+  transform: rotate3d(0,0,0,0);
+  -webkit-transition:
+    background-color 100ms ease-out,
+    margin 100ms ease-out,
+    height 100ms ease-out;
+  transition:
+    background-color 100ms ease-out,
+    margin 100ms ease-out,
+    height 100ms ease-out;
+  background-color: #bbb;
+  height: calc(100% - 0px);
+  display: block;
+}
+
+.vb.vb-scrolling-phantom > .vb-dragger > .vb-dragger-styler {
+  background-color: #aaa;
+}
+
+.vb > .vb-dragger:hover > .vb-dragger-styler {
+  background-color: #aaa;
+  margin: 0px;
+  height: 100%;
+}
+
+.vb.vb-dragging > .vb-dragger > .vb-dragger-styler {
+  background-color: #aaa;
+  margin: 0px;
+  height: 100%;
+}
+
+.vb.vb-dragging-phantom > .vb-dragger > .vb-dragger-styler {
+  background-color: #aaa;
+}
+.ivu-poptip-body-content{
+  overflow: hidden;
+}
+.ivu-checkbox-group-item{
+  float: left;
+}
+.ivu-checkbox-group{
+  overflow: hidden;
+}
